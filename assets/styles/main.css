@@ -66,6 +66,49 @@ header{
 	background-color: blue;
 }
 
+.latest-news-articles-container{
+	background-color: green;
+	height: 250px;
+	margin: 0 auto;
+	width: 98%;
+}
+
+.tnw-conference{
+	margin-top: 5px;
+	background-color: blue;
+	height: 300px;
+	width: 100%;
+}
+
+.latest-funding{
+	margin-top: 5px;
+	background-color: blue;
+	height: 300px;
+	width: 100%;
+}
+
+.three-columns{
+	margin-top: 5px;
+	background-color: blue;
+	height: 300px;
+	width: 100%;
+}
+
+.latest-deals{
+	margin-top: 5px;
+	background-color: blue;
+	height: 300px;
+	width: 100%;
+}
+
+footer{
+	margin-top: 5px;
+	background-color: blue;
+	height: 300px;
+	width: 100%;
+}
+
+
 
 /* MISC */
 
@@ -73,6 +116,6 @@ header{
 	
 }
 
-.cleearfix{
+.clear{
 	clear: both;
 }
