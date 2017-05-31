@@ -1,7 +1,16 @@
 /* General CSS */
 
-
 /* Primary Header */
+
+.tnw-logo{
+	position: absolute;
+	margin-left: 6px;
+	margin-top: 110px;
+	z-index: 999;
+	height: 100px;
+	width: 200px;
+	background-color: #aaa;
+}
 
 header{
 	height: 30px;
@@ -9,12 +18,35 @@ header{
 	background-color: blue;
 }
 
+.list-menu ul, .about-menu ul{
+	list-style: none;
+}
+
+.list-menu ul li, .about-menu ul li{
+	display: inline;
+}
+
+.list-menu{
+	float: left;
+}
+
+.about-menu{
+	float: right;
+}
+
 /* Categories text and social icons  */
 
 .categories-container{
 	height: 60px;
 	width: 100%;
-	background-color: #DDD;
+	background-color: #ccc;
+}
+
+.social{
+	float: right;
+	height: 30px;
+	width: 100px;
+	background-color: green;
 }
 
 /* Main Article */
@@ -62,15 +94,19 @@ header{
 /* Latest News Section */
 .latest-news{
 	width: 100%;
-	height: 300px;
+	height: 490px;
 	background-color: blue;
 }
 
-.latest-news-articles-container{
+.articles-container{
 	background-color: green;
 	height: 250px;
 	margin: 0 auto;
 	width: 98%;
+}
+
+.large{
+	height: 450px;
 }
 
 .tnw-conference{
@@ -87,12 +123,44 @@ header{
 	width: 100%;
 }
 
+.latest-funding h3{
+	background-color: pink;
+	display: inline-block;
+}
+
+.heading-menu{
+	float: right;
+	
+	background-color: yellow;
+}
+
+.heading-menu ul{
+	list-style: none;
+}
+
+.heading-menu ul li{
+	display: inline;
+}
+
 .three-columns{
 	margin-top: 5px;
 	background-color: blue;
 	height: 300px;
 	width: 100%;
 }
+
+.apps{
+	background-color: #111;
+}
+
+.gear{
+	background-color: #222;
+}
+
+.tech{
+	background-color: #333;
+}
+
 
 .latest-deals{
 	margin-top: 5px;
@@ -103,12 +171,51 @@ header{
 
 footer{
 	margin-top: 5px;
-	background-color: blue;
+	background-color: black;
 	height: 300px;
 	width: 100%;
 }
 
+.col{
+	float: left;
+	width: 33.333%;
+}
 
+.upcoming-events{
+	width: 33.3333%;
+	height: 50px;
+	background-color: #666;
+}
+
+.popular-companies{
+	width: 33.3333%;
+	height: 50px;
+	background-color: #777;
+}
+
+.trending-topics{
+	width: 33.3333%;
+	height: 50px;
+	background-color: #888;
+}
+
+.socials{
+	width: 100%;
+	height: 50px;
+	background-color: #999;
+}
+
+.about-footer{
+	width: 100%;
+	height: 50px;
+	background-color: #aaa;
+}
+
+.copyright-information{
+	width: 100%;
+	height: 50px;
+	background-color: #bbb;
+}
 
 /* MISC */
 
@@ -119,3 +226,20 @@ footer{
 .clear{
 	clear: both;
 }
+
+@media screen and (max-width: 1024px){
+	.tnw-logo{
+		float: left;
+		height: 80px;
+		width: 100px;
+		background-color: #aaa;
+		position: relative;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+
