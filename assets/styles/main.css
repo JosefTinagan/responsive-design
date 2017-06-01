@@ -63,6 +63,8 @@ header{
 	width: 100%;
 	height: 355px;
 	position: relative;
+	background-color: red;
+	display: block;
 }
 
 .main-article1{
@@ -220,11 +222,18 @@ footer{
 /* MISC */
 
 .hidden{
-	
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
 }
 
 .clear{
 	clear: both;
+}
+
+.mobile-header{
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
 }
 
 @media screen and (max-width: 1024px){
@@ -236,10 +245,68 @@ footer{
 		position: relative;
 		margin: 0;
 	}
+
 }
 
-@media screen and (max-width: 768px){
 
+@media screen and (max-width: 768px){
+	.tnw-logo{
+		height: 40px;
+		width: 100px;
+		background-color: yellow;
+		position: relative;
+		float: left;
+
+	}
+
+	.mobile-header{
+		display: block;
+		position: relative;
+		float: right;
+		
+	}
+
+	.menu, .search{
+		display: inline-block;
+		height: 40px;
+		border: 1px solid #ddd;
+		margin: 0;
+	}
+
+	.menu{
+		
+	}
+
+	header{
+		display: none;
+	}
+
+	.categories-container{
+		display: none;
+	}
+
+	.main-article1{
+		width: 100%;
+		height: 100px;
+		margin-bottom: 10px;
+	}
+
+	.article-wrapper{
+		float: none;
+		width: 100%;
+		clear: both;
+	}
+
+	.main-article2{
+		float: none;
+		height: 100px;
+	}
+
+	.main-article3{
+		float: none;
+		height: 100px;
+	
+	}
 }
 
 
