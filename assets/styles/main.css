@@ -191,13 +191,13 @@ footer{
 
 .popular-companies{
 	width: 33.3333%;
-	height: 50px;
+	height: 150px;
 	background-color: #777;
 }
 
 .trending-topics{
 	width: 33.3333%;
-	height: 50px;
+	height: 150px;
 	background-color: #888;
 }
 
@@ -207,10 +207,18 @@ footer{
 	background-color: #999;
 }
 
+.socials div{
+	display: inline-block;
+}
+
 .about-footer{
 	width: 100%;
 	height: 50px;
 	background-color: #aaa;
+}
+
+.about-footer p{
+	display: inline;
 }
 
 .copyright-information{
@@ -274,7 +282,7 @@ footer{
 	}
 
 	.menu{
-		
+
 	}
 
 	header{
