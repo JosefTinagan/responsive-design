@@ -315,6 +315,33 @@ footer{
 		height: 100px;
 	
 	}
+
+	.upcoming-events{
+		width: 49%;
+
+	}
+
+	.popular-companies{
+		width: 49%;
+	}
+
+	.trending-topics{
+		width: 49%;
+	}
 }
 
+@media screen and (max-width: 468px){
+	
+	.upcoming-events{
+		width: 100%;
+	}
+
+	.popular-companies{
+		width: 100%;
+	}
+
+	.trending-topics{
+		width: 100%;
+	}
+}
 
